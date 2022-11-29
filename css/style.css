@@ -1,0 +1,33 @@
+.wrapper {
+    background-color: white;
+    display: flex;
+    align-items: baseline;
+} 
+
+#Password {
+    text-indent: 30px;
+}
+
+#forgot {
+    position: relative;
+    bottom: 42px;
+    left: 125px;
+}
+
+#help {
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+    text-decoration: none;
+}
+
+#button {
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16pt;
+    border: 1px;
+    border-color: grey;
+}
