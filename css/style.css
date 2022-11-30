@@ -13,11 +13,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 375px;
     width: 400px;
+    /* padding-top:; */
     border-style: solid;
-    border: px grey;
-    border-bottom: grey px;
+    border: m;
+    border-color: grey;
+    
 }
 
 #logo {
@@ -48,7 +50,7 @@
 
 #help {
     position: relative;
-    top: 35px;
+    top: 25px;
     right: 125px;
     text-decoration: none;
 }
@@ -57,29 +59,40 @@
     width: 340px;
     background-color: #f3cc78;
     padding: 5px;
+
 }
 
 #newaccountbtn {
     position: relative;
-    top: 35px;
+    bottom: 21%;
     width: 340px;
     background-color: rgb(155, 153, 153);
     padding: 5px;
 }
 
-#newbann {
-    position: relative;
-    top: 55px;
+/* #newbann {
+    position: absolute;
+    
+} */
+
+#newmember {
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 30.25%;
+    height: 20%;
 }
 
-#lignleft{
-    height: 400px;
-    width: 350px;
-}
+/* #lignleft{
+    height: 20%;
+    width: 20%;
+} */
 
 #booties{
     width: 100%;
-    height: 6%;
+    height: 12%;
 }
 
 #hinkylinks {
@@ -87,8 +100,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
-    margin-left: 43%;
-    margin-right: 43%;
+    margin-left: 40%;
+    margin-right: 40%;
     margin-top: 3%;
 }
 
@@ -105,5 +118,5 @@
     align-items: baseline;
     font-size: 9pt;
     font-family: sans-serif;
-    margin-top: 2%;
+    margin-top: 1%;
 }
