@@ -9,6 +9,7 @@
 } 
 
 #border {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +65,7 @@
 
 #newaccountbtn {
     position: relative;
-    bottom: 21%;
+    top: 29%;
     width: 340px;
     background-color: rgb(155, 153, 153);
     padding: 5px;
@@ -76,23 +77,24 @@
 } */
 
 #newmember {
-    /* position: relative; */
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
+    bottom: 15%;
     width: 30.25%;
     height: 20%;
 }
 
-/* #lignleft{
-    height: 20%;
-    width: 20%;
-} */
+.linearound{
+    color:red;
+    height: 2px;
+}
 
 #booties{
     width: 100%;
-    height: 12%;
+    height: 6%;
 }
 
 #hinkylinks {
