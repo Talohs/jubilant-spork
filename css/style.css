@@ -19,6 +19,10 @@
     border:  grey 2px;
 }
 
+#logo {
+    bottom: 20%;
+}
+
 #signinsign{
     right: 125px;
     font-family: sans-serif;
@@ -65,4 +69,34 @@
 #lignleft{
     height: 400px;
     width: 350px;
+}
+
+#booties{
+    width: 100%;
+}
+
+#hinkylinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-left: 43%;
+    margin-right: 43%;
+    margin-top: 3%;
+}
+
+.bottomlink {
+    font-size: 9pt;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    font-size: 9pt;
+    font-family: sans-serif;
+    margin-top: 2%;
 }
